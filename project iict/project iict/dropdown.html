@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		*{margin: 0px;
+			padding: 0px;}
+
+		#navigation ul{
+			list-style: none;
+		}
+		#navigation ul li{
+			background-color: grey;
+			width: 150px;
+			border: 1px solid red;
+			height: 50px;
+			line-height: 50px;
+			text-align: center;
+			float: left;
+		}
+		#navigation ul ul{
+			display: none;
+		}
+		#navigation ul li:hover >ul{
+			display: block;
+		}
+
+
+</style>
+	<title>drop</title>
+</head>
+<body>
+	<div id="navigation">
+<ul>
+<li><b><a href="project.html">  HOME</a></b></li>
+<li><b><a href="products.html"> PRODUCTS</a></b>
+<ul class="dropdown">
+  <li><b><a href="">samsung</a></b></li>
+  <li><b><a href="">oppo</a></b></li>
+  <li><b><a href="">iphone</a></b></li>
+</ul>
+</li>
+<li><b><a href="#"> COMPARSION</a></b></li>
+<li><b><a href="feedback.html"> FEEDBACK</a></b></li>
+<li><b><a href="about us.html"> ABOUT US</a></b></li>
+<li><b><a href="contact us.html"> CONTACT US</a></b></li>
+</ul>
+</div>
+
+</body>
+</html>

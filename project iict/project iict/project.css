@@ -1,0 +1,244 @@
+ *{margin:0px ;
+padding-top: 0px }	
+body{
+	font-family: arial;
+	background: #757F9A;
+background: -webkit-linear-gradient(to right, #D7DDE8, #757F9A);
+background: linear-gradient(to right, #D7DDE8, #757F9A);
+	color: black;
+}
+#header{
+	padding-top: 20px;    
+	width: 100%;
+	height: 80px;
+  background: -webkit-linear-gradient(to bottom, #434343, #000000); 
+  background: linear-gradient(to top, #434343, #000000);	
+  color: black;
+	text-align: left;
+	font-family:;
+	font-size: 25px;	
+	text-shadow: 0 0 10px white,
+                 0 0 10px white,
+                 0 0 10px white,
+                 0 0 10px white;
+}
+#header h1{
+	margin-left: 100px;
+}
+#navigation{
+
+	height: 50px;
+	margin-top: 30px;
+  margin-left: 65px;
+
+}
+#navigation a{
+	color: black;
+	text-transform: uppercase;
+	padding: 15px 37px 15px 38px;
+	border: 2px solid black;
+	border-radius: 5px;
+	text-decoration: none;
+	display: initial;
+}	
+#navigation li{
+	display:initial;
+  text-decoration: none;
+}
+#navigation a:hover,a.on{
+    background: -webkit-linear-gradient(to top, #434343, #000000); 
+    background: linear-gradient(to bottom, #434343, #000000);
+    color: white;
+	text-decoration: none;
+    transition: 0.5s;
+    box-shadow: 0 0 5px white,
+                0 0 5px white,
+                0 0 5px white,
+                0 0 5px white;
+
+}
+#extra-content{
+  height: 300px;
+	width: 13%;
+	margin-right: 100px;
+	float: right;
+  background: -webkit-linear-gradient(to bottom, #434343, #000000); 
+  background: linear-gradient(to top, #434343, #000000);
+	margin-top: 120px;
+	border-radius: 10px;
+	padding-top: 20px;   
+	box-shadow: 0 0 12px white,
+                0 0 12px white,
+                0 0 12px white,
+                0 0 12px white;
+}
+#extra-content h2{
+	margin-left: 17px;
+  color: white;
+}
+#extra-content a{
+	margin-left: 19px;
+}
+#extra-content img:hover,img.on{
+    box-shadow: 0 0 10px white,
+                0 0 10px white,
+                0 0 10px white,
+                0 0 10px white;
+    transition: 0.5s;
+   height: 100px;
+}
+.xtra-content{
+  height: 250px;
+  width: 13%;
+  float: right;
+  margin-right: -180px;
+  background: -webkit-linear-gradient(to bottom, #434343, #000000); 
+  background: linear-gradient(to top, #434343, #000000);
+  margin-top: 550px;
+  border-radius: 10px;
+  padding-top: 20px;    
+  transition: 0.5s;
+  box-shadow: 0 0 12px white,
+                0 0 12px white,
+                0 0 12px white,
+                0 0 12px white;
+
+}
+#nav-bar{
+	border-radius: 7px;
+	height: 40px;
+  background: -webkit-linear-gradient(to bottom, #434343, #000000); 
+  background: linear-gradient(to top, #434343, #000000);
+	color:white;
+	padding-left: 45px;
+	padding-top: 20px;
+	margin-right: 103px;
+	margin-left: 103px;	
+}
+.search-bar .search-container {
+  float: right;  
+  margin-top: -43.8px;
+}
+.search-bar input[type=text] {
+  padding: 6px;
+  border-radius: 7px;
+  font-size: 17px;
+  height: 40px;
+  width: 130%;
+  border:none;
+}
+.logo{
+	margin-left: 100px;
+	margin-top: 15px;
+}
+#PRODUCTS{
+    border:2px solid black;
+    width: 70%;
+    height: 970px;
+    position: absolute;
+}
+.samsung-galaxy-A01{
+	    margin-top: 50px;
+	    margin-left: 700px;
+      text-align: center;
+}
+.samsung-galaxy-A30s{
+       float: left;
+       margin-left: 30px;
+       margin-top: -242px;
+       text-align: center;  
+}
+.iPhone11ProMax{
+       float: right;
+       margin-right: 260px;
+       margin-top: -265px;
+       text-align: center;
+}
+.oppoA5-2020{
+	   float: left;
+	   margin-left: 275px;
+       margin-top: -265px;
+       text-align: center;
+}
+.oppo-reno-2{
+	    margin-left: 700px;
+        text-align: center;
+}
+.Apple-iPhone-11{
+	   float: right;
+       margin-right: 300px;
+       margin-top: -245px;
+       text-align: center;
+}
+.Apple-iphone-11-Pro{
+	   float: left;
+	   padding-left: 260px;
+    margin-top: -253px;
+    text-align: center;
+}
+.samsung-galaxy-note-10{
+	   float: left;
+	   padding-left: 30px;
+    margin-top: -242px;
+      text-align: center;
+}
+footer{
+	margin-top: 1050px;
+  width: 100%;
+  height: 250px;
+  background: -webkit-linear-gradient(to bottom, #434343, #000000); 
+  background: linear-gradient(to top, #434343, #000000);
+}
+.footer{
+  text-align: center;
+  font-family: Times New Roman;
+  margin-bottom: -50px;
+}
+.social-media{
+  width: 100%;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: white;
+}
+.social-media a span{
+  color: white;
+  font-size: 30px;
+}
+.social-media a span:hover{
+  color: black;
+  text-shadow: 0 0 10px aqua,
+               0 0 10px aqua,
+               0 0 10px aqua;
+
+}
+.H-social-media{
+  height: 1px;
+  text-align: right;  
+  color: white;
+  margin-top: -px;
+  margin-right: 10px;
+}
+.H-social-media a span{
+  color: white;
+  font-size: 25px;
+  transition: 0.4s;
+  margin-right: 25px;
+}
+.H-social-media a span:hover{
+  text-shadow: 0 0 10px aqua,
+               0 0 10px aqua,
+               0 0 10px aqua;
+
+}
+.copy-right{
+  width: 100%;
+  height: 20px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 30px;
+  font-size: 12px;
+}

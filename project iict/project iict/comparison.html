@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Comparison Page</title>
+    <link rel="stylesheet" type="text/css" href="comparison..css">
+</head>
+
+<body>
+    <title>MOBILES .PK</title>
+    <link rel="stylesheet" type="text/css" href="project.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div id="header">
+            <div class="H-social-media">
+                <a href="">
+                    <span class="fa fa-facebook" aria-hidden="true"></span>
+
+                </a>
+                <a href="#">
+                    <span class="fa fa-twitter" aria-hidden="true"></span>
+                </a>
+                <a href="#">
+
+                    <span class="fa fa-whatsapp" aria-hidden="true"></span>
+                </a>
+                <a href="#">
+                    <span class="fa fa-instagram" aria-hidden="true"></span>
+                </a>
+            </div>
+            <h1><b>MOBILES.PK</b></h1>
+
+        </div>
+        <div id="navigation">
+            <ul>
+                <li><a href="project.html" class="fa fa-home"><b> HOME</a></b>
+                </li>
+                <li><a href="products.html" class="fa fa-list-ul"><b> PRODUCTS</a></b>
+                </li>
+                <li><a href="#" class="fa fa-angle-double-left"><b> COMPARSION <i class="fa fa-angle-double-right"></i></a></b>
+                </li>
+                <li><a href="feedback.html" class="fa fa-comment"><b> FEEDBACK</a></b>
+                </li>
+                <li><a href="about us.html" class="fa fa-exclamation-circle"><b> ABOUT US</a></b>
+                </li>
+                <li><a href="contact us.html" class="fa fa-phone"><b> CONTACT US</a></b>
+                </li>
+            </ul>
+        </div>
+
+
+
+        <div id="nav-bar">
+            <h2>WELCOME! TO MOBILES.PK</h2>
+            <div class="search-bar">
+                <div class="search-container">
+
+                    <input type="text" placeholder="Search.." name="search">
+
+
+                </div>
+            </div>
+        </div>
+        <!-- Section One -->
+        <div id="first">
+            <div id="select">
+                <select id="no1" onchange="phone()"> <option>--Select--</option> <option value="3310">Nokia 3310</option> <option value="honor6x">Huawei Honor 6x</option>rd </select>
+            </div>
+            <div id="img">
+                <img src="" id="i1">
+            </div>
+            <div id="table">
+                <table border="1" style="width: 80%;">
+                    <tbody>
+                        <tr>
+                            <td>Price</td>
+                            <td id="price"></td>
+                        </tr>
+                        <tr>
+                            <td>Battery</td>
+                            <td id="bat1"></td>
+                        </tr>
+                        <tr>
+                            <td>Storage</td>
+                            <td id="str1"></td>
+                        </tr>
+                        <tr>
+                            <td>RAM</td>
+                            <td id="ram1"></td>
+                        </tr>
+                        <tr>
+                            <td>Camera</td>
+                            <td id="cam1"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- Section Two -->
+        <div id="second">
+            <div id="select">
+                <select id="no2" onchange="phone2()"> <option>--Select--</option> <option value="3310">Nokia 3310</option> <option value="honor6x">Huawei Honor 6x</option> </select>
+            </div>
+            <div id="img">
+                <img src="" id="i2">
+            </div>
+            <div id="table">
+                <table border="1" style="width: 80%;">
+                    <tbody>
+                        <tr>
+                            <td>Price</td>
+                            <td id="price2"></td>
+                        </tr>
+                        <tr>
+                            <td>Battery</td>
+                            <td id="bat2"></td>
+                        </tr>
+                        <tr>
+                            <td>Storage</td>
+                            <td id="str2"></td>
+                        </tr>
+                        <tr>
+                            <td>RAM</td>
+                            <td id="ram2"></td>
+                        </tr>
+                        <tr>
+                            <td>Camera</td>
+                            <td id="cam2"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="comparision" id="compare">
+                <button onclick="compare()" id="btnn" style="background-color: #333;">Click to have dicidion</button>
+            </div>
+
+            <footer>
+                <div class="social-media">
+                    <a href="">
+                        <span class="fa fa-facebook" aria-hidden="true"></span>
+                    </a>
+                    <a href="#">
+                        <span class="fa fa-twitter" aria-hidden="true"></span>
+                    </a>
+                    <a href="#">
+                        <span class="fa fa-linkedin"></span>
+                    </a>
+                    <a href="#">
+                        <span class="fa fa-instagram" aria-hidden="true"></span>
+                    </a>
+                </div>
+                <div class="copy-right">MOBILE MART.PK © 2018 | All RIGHTS RESERVED
+                </div>
+            </footer>
+    </body>
+    <script type="text/javascript">
+        function phone() {
+
+            var p1 = document.getElementById("no1").value;
+            var p2 = document.getElementById("no2").value;
+
+            if (p1 == p2) {
+                alert("You Cannot Compare Same Products!! Choose Different Products. Thanks");
+            } else if (p1 == "3310") {
+                document.getElementById("i1").innerHTML = "<img src="
+                3310. jpeg ">";
+                document.getElementById("price").innerHTML = "Rs: 3000/-";
+                document.getElementById("bat1").innerHTML = "1200 mAh";
+                document.getElementById("str1").innerHTML = "microSD up to 32 Gb";
+                document.getElementById("ram1").innerHTML = "16 Mb Ram";
+                document.getElementById("cam1").innerHTML = "2 Mega Pixels";
+            } else if (p1 == "honor6x") {
+                document.getElementById("i1").src = "Apple-iPhone-xr.png";
+                document.getElementById("price").innerHTML = "Rs: 23000/-";
+                document.getElementById("bat1").innerHTML = "3340 mAh";
+                document.getElementById("str1").innerHTML = "32 GB Storage";
+                document.getElementById("ram1").innerHTML = "3 GB";
+                document.getElementById("cam1").innerHTML = "12 MP + 2 MP Depth Sensor";
+            }
+
+        }
+
+
+        function phone2() {
+
+            var p1 = document.getElementById("no1").value;
+            var p2 = document.getElementById("no2").value;
+
+            if (p1 == p2) {
+                alert("You Cannot Compare Same Products!! Choose Different Products. Thanks");
+            } else if (p2 == "3310") {
+                document.getElementById("i2").style = "background: Apple-iphone-xr.png";
+                document.getElementById("price2").innerHTML = "Rs: 3000/-";
+                document.getElementById("bat2").innerHTML = "1200 mAh";
+                document.getElementById("str2").innerHTML = "microSD up to 32 Gb";
+                document.getElementById("ram2").innerHTML = "16 MB Ram";
+                document.getElementById("cam2").innerHTML = "2 Mega Pixels";
+            } else if (p2 == "honor6x") {
+                document.getElementById("i2").src = "6x.jpg";
+                document.getElementById("price2").innerHTML = "Rs: 23000/-";
+                document.getElementById("bat2").innerHTML = "3340 mAh";
+                document.getElementById("str2").innerHTML = "32 GB Storage";
+                document.getElementById("ram2").innerHTML = "2 GB";
+                document.getElementById("cam2").innerHTML = "12 MP + 2 MP Depth Sensor";
+            }
+
+        }
+
+        function compare() {
+            var a = document.getElementById("price").innerHTML = "Rs: 23000/-";
+            var b = document.getElementById("price2").innerHTML = "Rs: 3000/-";
+
+            if (a > b) {
+                document.getElementById("compare").innerHTML = "You sould buy nokia";
+            } else {
+                document.getElementById("compare").innerHTML = "You sould buy HUmawi";
+            }
+        }
+    </script>
+
+</html>

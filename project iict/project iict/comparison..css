@@ -1,0 +1,58 @@
+        * {
+            list-style-type: none;
+            text-decoration: none;
+            margin: 0 auto;
+            padding: 0;
+        }
+        
+        #first {
+            width: 50%;
+            height: 1000px;
+            background-color: white;
+            float: left;
+        }
+        
+        #second {
+            width: 50%;
+            height: 1000px;
+            background-color: white;
+            float: left;
+        }
+        
+        select {
+            margin-left: 200px;
+            margin-top: 30px;
+        }
+        
+        #img {
+            width: 50%;
+            height: 100px;
+            margin-top: 50px;
+        }
+        
+        img {
+            width: 50%;
+            height: 100px;
+        }
+        
+        table {
+            margin-top: 50px;
+        }
+        
+        table td {
+            font-size: 20px;
+            margin-left: 20px;
+        }
+        
+        .comparision {
+            margin-top: 10pc;
+            margin-left: -90px;
+        }
+        
+        #btnn {
+            font-size: 20px;
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 13px;
+        }
